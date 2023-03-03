@@ -5,9 +5,9 @@ import PackageDescription
 
 let moduleName = "YotraKit"
 let gitlabProjectId = "44017035"
-let version = "0.0.7"
+let version = "0.0.8"
 let url = "https://gitlab.com/api/v4/projects/\(gitlabProjectId)/packages/generic/yotrakit/\(version)/\(moduleName).zip"
-let checksum = "424d57696c7a0a4067452aee5d75ae5f18b2df535dfeefac5ac241c3d669dbe5"
+let checksum = "8bd91d0914f98a294c4f54d47b3da2f0474737e1972f09f4dcaa46197215e213"
 
 let package = Package(
         name: moduleName,
@@ -16,9 +16,6 @@ let package = Package(
             .library(
                     name: moduleName,
                     targets: [moduleName]),
-        ],
-        dependencies: [
-            .package(url: "https://github.com/apple/swift-log", from: "1.5.2"),
         ],
         targets: [
             .binaryTarget(
