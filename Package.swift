@@ -5,9 +5,9 @@ import PackageDescription
 
 let moduleName = "YotraKit"
 let gitlabProjectId = "44017035"
-let version = "0.0.8"
+let version = "0.0.9"
 let url = "https://gitlab.com/api/v4/projects/\(gitlabProjectId)/packages/generic/yotrakit/\(version)/\(moduleName).zip"
-let checksum = "8bd91d0914f98a294c4f54d47b3da2f0474737e1972f09f4dcaa46197215e213"
+let checksum = "d2775ab9870bf39edb587cb440ceeec6e42d900a8bcc52df88709d8375311078"
 
 let package = Package(
         name: moduleName,
