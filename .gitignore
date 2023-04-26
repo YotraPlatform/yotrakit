@@ -11,8 +11,8 @@ DerivedData/
 public/
 
 # Ignore XCFramework zip and sha256 files
-YotraKit.zip
-YotraKit.sha256
+/YotraKit.zip
+/YotraKit.sha256
 
 # Ignore Gradle project-specific cache directory
 .gradle
