@@ -4,9 +4,9 @@
 import PackageDescription
 
 let moduleName = "YotraKit"
-let version = "0.0.21"
+let version = "0.0.22"
 let url = "https://raw.githubusercontent.com/YotraPlatform/yotrakit/main/artefacts/\(version)/\(moduleName).zip"
-let checksum = "78666d0e8293ed9927367c5599a5ddf7f1f5b4d02a39370a4d7ba2c2fbc98543"
+let checksum = "9fe721ce97190264a2d48847f49953093496364d2fe6f2472d815b31aeb2fb91"
 
 let package = Package(
         name: moduleName,
