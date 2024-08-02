@@ -4,10 +4,10 @@
 import PackageDescription
 
 let moduleName = "YotraKit"
-let version = "0.0.48"
+let version = "0.0.49"
 let url = "https://raw.githubusercontent.com/YotraPlatform/yotrakit/main/artefacts/\(version)/\(moduleName).zip"
 let path = "artefacts/\(version)/\(moduleName).zip"
-let checksum = "2ebcf9218c64a57f11c337e97d2e3c1194dd961f5d91da63feb05d816a58c019"
+let checksum = "53a4932e286a1580aa1ffef31cd708a0a6aabed486ce89d5e9265d02143067d4"
 let mode = "url"
 let binaryTarget = mode == "local" ?
         PackageDescription.Target.binaryTarget(name: moduleName, path: path) :
